@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalAPIs.Server", "ExternalAPIs.Server\ExternalAPIs.Server.csproj", "{5D53685F-CEEB-4AFF-8F56-5BF91572E182}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "externalapis.client", "externalapis.client\externalapis.client.esproj", "{D7FA393B-23D8-43E6-97CB-66066DA6C241}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D53685F-CEEB-4AFF-8F56-5BF91572E182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D53685F-CEEB-4AFF-8F56-5BF91572E182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D53685F-CEEB-4AFF-8F56-5BF91572E182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D53685F-CEEB-4AFF-8F56-5BF91572E182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FA393B-23D8-43E6-97CB-66066DA6C241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FA393B-23D8-43E6-97CB-66066DA6C241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FA393B-23D8-43E6-97CB-66066DA6C241}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D7FA393B-23D8-43E6-97CB-66066DA6C241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FA393B-23D8-43E6-97CB-66066DA6C241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FA393B-23D8-43E6-97CB-66066DA6C241}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47DDDC17-B6EB-4AD8-8CBE-3C2BFD86B2EF}
+	EndGlobalSection
+EndGlobal

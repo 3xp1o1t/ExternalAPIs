@@ -2,7 +2,13 @@
 
 Just a project for testing out Net Core 7 with ASP.Net and the new project template with React made with Vite 5
 
+Default page
+
 ![Preview](preview.png)
+
+Action Dialog
+
+![Preview2](previewDialog.png)
 
 ## Packages installed
 

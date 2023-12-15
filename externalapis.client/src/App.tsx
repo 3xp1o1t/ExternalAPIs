@@ -1,5 +1,8 @@
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ModeToggle } from "./components/mode-toggle";
 import PokemonPage from "./components/pokemon";
+
+const queryClient = new QueryClient();
 
 function App() {
   return (
@@ -15,7 +18,9 @@ function App() {
         </div>
       </header>
       <div className="container flex-1 items-center border-b py-6 py-6">
-        <PokemonPage />
+        <QueryClientProvider client={queryClient}>
+          <PokemonPage />
+        </QueryClientProvider>
       </div>
       <footer className="container flex h-14 items-center justify-center py-6">
         <p className="text-center text-sm leading-loose text-muted-foreground">

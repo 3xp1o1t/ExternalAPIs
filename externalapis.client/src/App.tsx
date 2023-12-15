@@ -1,5 +1,5 @@
 import { ModeToggle } from "./components/mode-toggle";
-import Test from "./pages/test";
+import PokemonPage from "./components/pokemon";
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
         <ModeToggle />
       </div>
       <div className="flex flex-col">
-        <Test />
+        {/* <Test /> */}
+        <PokemonPage />
       </div>
     </div>
   );

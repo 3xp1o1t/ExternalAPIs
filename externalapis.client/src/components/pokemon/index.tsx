@@ -20,10 +20,6 @@ const PokemonPage = () => {
     fetchData();
   }, []);
 
-  return (
-    <div className="container mx-auto py-10">
-      <DataTable columns={columns} data={data} />
-    </div>
-  );
+  return <DataTable columns={columns} data={data} />;
 };
 export default PokemonPage;

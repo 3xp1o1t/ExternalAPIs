@@ -21,7 +21,7 @@ export const columns: ColumnDef<Pokemon>[] = [
   {
     accessorKey: "name",
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="name" />
+      <DataTableColumnHeader column={column} title="Name" />
     ),
   },
   {
